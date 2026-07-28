@@ -266,7 +266,7 @@ In this task, you want to control network traffic between the perimeter subnet a
     | Resource group | `az104-rg5`  |
     | Region | **Southeast Asia** |
     | Name | `rt-CoreServices` |
-    | Propagate gateway routes | **No** |
+    | Enable peering routes | **No** |
 
 1. Select **Review + create** and then **Create**
 
