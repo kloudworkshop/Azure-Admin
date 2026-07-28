@@ -1,6 +1,6 @@
 # Welcome to the lab content for MAZ104 Azure-Administrator
 
-[To access the Lab Guide in HTML form please click here](https://cloudklass.github.io/Azure-Admin/)
+[To access the Lab Guide in HTML form please click here](https://kloudworkshop.github.io/Azure-Admin/)
 
 *To open in a new tab:  CTRL+click (on Windows and Linux) or CMD+click (on MacOS)*
 
