@@ -184,22 +184,22 @@ In this task, you will deploy an Azure virtual machine scale set across availabi
     | --- | --- |
     | Subscription | the name of your Azure subscription  |
     | Resource group | **az104-rg8**  |
-    | Virtual machine scale set name | `vmss1` |
-    | Region | **(Asia Pacific) SouthEast Asia** |
+    | Virtual machine scale set name | vmss1 |
+    | Region | **East US** |
     | Availability zone | **Zones 1, 2, 3** |
     | Orchestration mode | **Uniform** |
     | Security type | **Standard** |
     | Scaling mode | **Manually update the capacity** |
     | Instance count | **2** |
     | Image | **Windows Server 2025 Datacenter - x64 Gen2** |
-    | Size | **Standard D2s_v3** |
+    | Size | **Standard D2s_v7** |
     | Username | `localadmin` |
     | Password | **Pa55w.rd1234abc**  |
     | Already have a Windows Server license? | **Unchecked** |
 
     >**Note**: For the list of Azure regions which support deployment of Windows virtual machines to availability zones, refer to [What are Availability Zones in Azure?](https://docs.microsoft.com/en-us/azure/availability-zones/az-overview)
 
-    ![Screenshot of the create vmss page. ](../media/az104-lab08-create-vmss.png)
+    ![Screenshot of the create vmss page. ](../media/az104-lab08-create-vmss-2.png)
 
 4. On the **Spot** tab, accept the defaults and select **Next: Disks >**.
 
@@ -210,9 +210,9 @@ In this task, you will deploy an Azure virtual machine scale set across availabi
     | Setting | Value |
     | --- | --- |
     | Name | `vmss-vnet` |
-    | Address range | `10.82.0.0/16` (change what is there) |
-    | Subnet name | `subnet0` |
-    | Subnet range | `10.82.0.0/24` |
+    | Address range | 10.82.0.0/16` (change what is there) |
+    | Subnet name | subnet0 |
+    | Subnet range | 10.82.0.0/24 |
 
 7. In the **Networking** tab, click the **Edit network interface** icon (`pen icon`) to the right of the network interface entry.
 
@@ -234,7 +234,7 @@ In this task, you will deploy an Azure virtual machine scale set across availabi
     | Service | **HTTP** |
     | Action | **Allow** |
     | Priority | **1010** |
-    | Name | `allow-http` |
+    | Name | allow-http |
 
 11. Click **Add** and, back on the **Create network security group** blade, click **OK**.
 
@@ -251,7 +251,7 @@ In this task, you will deploy an Azure virtual machine scale set across availabi
 
     | Setting | Value |
     | --- | --- |
-    | Load balancer name | `vmss-lb` |
+    | Load balancer name | vmss-lb |
 
     >**Note:** Pause for a minute and review what you done. At this point, you have configured the virtual machine scale set with disks and networking. In the network configuration you have created a network security group and allowed HTTP. You have also created a load balancer with a public IP address.
 
