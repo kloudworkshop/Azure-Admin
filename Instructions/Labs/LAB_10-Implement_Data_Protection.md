@@ -143,7 +143,7 @@ In this task, you will implement Azure virtual-machine level backup. As part of 
 
     | Setting | Value |
     | ---- | ---- |
-    | Policy name | `az104-backup` |
+    | Policy name | az104-backup |
     | Frequency | **Daily** |
     | Time | **12:00 AM** |
     | Timezone | the name of your local time zone |
@@ -184,7 +184,7 @@ In this task, you will deploy an Azure storage account. Then you will configure 
   | Subscription          | *Your subscription*    |
   | Resource group        | **az104-rg-region1**        |
   | Storage account name  | Provide a globally unique name   |
-  | Region                | **SouthEastAsia**   |
+  | Region                | **UK South**   |
   
   (Leave all other settings as default).
 
