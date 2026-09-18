@@ -53,6 +53,8 @@ In this task, you will deploy two Azure virtual machines into different availabi
 
 1. On the **Basics** tab, in the **Availability zone** drop down menu, place a checkmark next to **Zone 2**. This should select both **Zone 1** and **Zone 2**.
 
+>**Note:** You may need to change to the previous layout, this can be done by clicking to link in the item at the top of the page. 'This is a preview of a new Create-VM experience. Features are limited in this experience and all feedback is appreciated. Click here to access the previous experience.'
+
     >**Note**: This will deploy two virtual machines in the selected region, one in each zone. You achieve the 99.99% uptime SLA because you have at least two VMs distributed across at least two zones. In the scenario where you might only need one VM, it is a best practice to still deploy the VM to another zone.
 
 1. On the Basics tab, continue completing the configuration:
