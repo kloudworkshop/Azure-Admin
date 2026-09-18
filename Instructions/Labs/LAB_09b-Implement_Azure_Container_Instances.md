@@ -86,7 +86,9 @@ In this task, you review the deployment of the container instance. By default, t
 
      ![Screenshot of the ACI overview page in the portal.](../media/az104-lab09b-aci-overview.png)
 
-1. Verify that the **Welcome to Azure Container Instance** page is displayed. Refresh the page several times to create some log entries then close the browser tab.  
+1. Verify that the **Welcome to Azure Container Instance** page is displayed. Refresh the page several times to create some log entries then close the browser tab.
+
+     > **Note**: If you get a "Hmmm...can't reach this page", change from https to http.
 
 1. In the **Settings** section of the container instance blade, click **Containers**, and then click **Logs**.
 
