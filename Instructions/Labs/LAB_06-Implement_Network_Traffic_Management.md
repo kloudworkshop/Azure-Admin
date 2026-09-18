@@ -99,7 +99,7 @@ In this task, you implement an Azure Load Balancer in front of two Azure virtual
 
     | Setting | Value |
     | --- | --- |
-    | Name | `az104-fe` |
+    | Name | az104-fe |
     | IP type | IP address |
     | Gateway Load Balancer | None |
     | Public IP address | Select **Create new** (use the instructions in the next step) |
@@ -108,7 +108,7 @@ In this task, you implement an Azure Load Balancer in front of two Azure virtual
 
     | Setting | Value |
     | --- | --- |
-    | Name | `az104-lbpip` |
+    | Name | az104-lbpip |
     | Routing Preference | Microsoft network |
 
     >**Note:** The Standard SKU provides a static IP address. Static IP addresses are assigned with the resource is created and released when the resource is deleted.  
@@ -119,7 +119,7 @@ In this task, you implement an Azure Load Balancer in front of two Azure virtual
 
     | Setting | Value |
     | --- | --- |
-    | Name | `az104-be` |
+    | Name | az104-be |
     | Virtual network | **az104-06-vnet1** |
     | Backend Pool Configuration | **NIC** |
     | Click **Add** (to add virtual machines) |  |
@@ -142,21 +142,21 @@ In this task, you implement an Azure Load Balancer in front of two Azure virtual
 
     | Setting | Value |
     | --- | --- |
-    | Name | `az104-lbrule` |
+    | Name | az104-lbrule |
     | IP Version | **IPv4** |
     | Frontend IP Address | **az104-fe** |
     | Backend pool | **az104-be** |
     | Protocol | **TCP** |
-    | Port | `80` |
-    | Backend port | `80` |
+    | Port | 80 |
+    | Backend port | 80 |
     | Health probe | **Create new** |
-    | Name | `az104-hp` |
+    | Name | az104-hp |
     | Protocol | **TCP** |
-    | Port | `80` |
-    | Interval | `5` |
+    | Port | 80 |
+    | Interval | 5 |
     | Close the create health probe window | **Save** |
     | Session persistence | **None** |
-    | Idle timeout (minutes) | `4` |
+    | Idle timeout (minutes) | 4 |
     | TCP reset | **Disabled** |
     | Floating IP | **Disabled** |
     | Outbound source network address translation (SNAT) | **Recommended** |
@@ -189,9 +189,9 @@ In this task, you implement an Azure Application Gateway in front of two Azure v
 
     | Setting | Value |
     | --- | --- |
-    | Subnet purpose | `Default` |
-    | Name | `subnet-appgw` |
-    | Subnet address range | `10.60.3.0/27` |
+    | Subnet purpose | Default |
+    | Name | subnet-appgw |
+    | Subnet address range | 10.60.3.0/27 |
 
 1. Click **Add**
 
@@ -204,12 +204,12 @@ In this task, you implement an Azure Application Gateway in front of two Azure v
     | Setting | Value |
     | --- | --- |
     | Subscription | your Azure subscription |
-    | Resource group | `az104-rg6` |
-    | Application gateway name | `az104-appgw` |
+    | Resource group | az104-rg6 |
+    | Application gateway name | az104-appgw |
     | Region | The **same** Azure region that you used in Task 1 |
     | Tier | **Standard V2** |
     | Enable autoscaling | **No** |
-    | Minimum instance count | `2` |
+    | Minimum instance count | 2 |
     | HTTP2 | **Disabled** |
     | Virtual network | **az104-06-vnet1** |
     | Subnet | **subnet-appgw (10.60.3.0/27)** |
@@ -222,7 +222,7 @@ In this task, you implement an Azure Application Gateway in front of two Azure v
     | --- | --- |
     | Frontend IP address type | **Public** |
     | Public IP address| **Add new** |
-    | Name | `az104-gwpip` |
+    | Name | az104-gwpip |
 
     >**Note:** The Application Gateway can have both a public and private IP address.
  
@@ -230,7 +230,7 @@ In this task, you implement an Azure Application Gateway in front of two Azure v
 
     | Setting | Value |
     | --- | --- |
-    | Name | `az104-appgwbe` |
+    | Name | az104-appgwbe |
     | Add backend pool without targets | **No** |
     | `Target type:` **Virtual machine** | `Target:` **az104-06-nic1 (10.60.1.4)** |
     | `Target type:` **Virtual machine** | `Target:` **az104-06-nic2 (10.60.2.4)** |
@@ -239,7 +239,7 @@ In this task, you implement an Azure Application Gateway in front of two Azure v
 
     | Setting | Value |
     | --- | --- |
-    | Name | `az104-imagebe` |
+    | Name | az104-imagebe |
     | Add backend pool without targets | **No** |
     | `Target type:` **Virtual machine** | `Target:` **az104-06-nic1 (10.60.1.4)** |
 
@@ -247,20 +247,20 @@ In this task, you implement an Azure Application Gateway in front of two Azure v
 
     | Setting | Value |
     | --- | --- |
-    | Name | `az104-videobe` |
+    | Name | az104-videobe |
     | Add backend pool without targets | **No** |
-    | `Target type:` **Virtual machine** | `Target:` **az104-06-nic2 (10.60.2.4)** |
+    | Target type: **Virtual machine** | Target: **az104-06-nic2 (10.60.2.4)** |
 
 1. Select **Next: Configuration** and then **Add routing rules**. Complete the information.
 
     | Setting | Value |
     | --- | --- |
-    | Rule name | `az104-gwrule` |
-    | Priority | `10` |
-    | Listener name | `az104-listener` |
+    | Rule name | az104-gwrule |
+    | Priority | 10 |
+    | Listener name | az104-listener |
     | Frontend IP | **Public IPv4** |
     | Protocol | **HTTP** |
-    | Port | `80` |
+    | Port | 80 |
     | Listener type | **Basic** |
 
 1. Move to the **Backend targets** tab.
@@ -268,7 +268,7 @@ In this task, you implement an Azure Application Gateway in front of two Azure v
    | Setting | Value |
     | --- | --- |
     | Backend target | Select from drop down list `az104-appgwbe` |
-    | Backend settings name | `az104-http` (add new) |
+    | Backend settings name | az104-http (add new) |
 
 1. Accept all other default settings and select **Add**.
 
@@ -280,19 +280,19 @@ In this task, you implement an Azure Application Gateway in front of two Azure v
 
     | Setting | Value |
     | --- | --- |
-    | Path | `/image/*` |
-    | Target name | `images` |
+    | Path | /image/* |
+    | Target name | images |
     | Backend settings | **az104-http** |
-    | Backend target | `az104-imagebe` |
+    | Backend target | az104-imagebe |
 
     **Rule - routing to the videos backend**
 
     | Setting | Value |
     | --- | --- |
-    | Path | `/video/*` |
-    | Target name | `videos` |
+    | Path | /video/* |
+    | Target name | videos |
     | Backend settings | **az104-http** |
-    | Backend target | `az104-videobe` |
+    | Backend target | az104-videobe |
 
 1. Select **Add** then select **Next: Tags >**. No changes are needed.
 
