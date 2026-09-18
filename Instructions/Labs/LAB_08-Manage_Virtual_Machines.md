@@ -119,7 +119,9 @@ In this task, you will scale a virtual machine by adjusting its size to a differ
 
 1. Set another virtual machine size that has 2 cores and click **Resize**. When prompted, confirm the change.
 
-2.  ![Screenshot of the create vm page.](../media/az104-lab08-resize-vm.png)
+1. Wait for the resizing to complete before continuing to the next task.
+
+ ![Screenshot of the create vm page.](../media/az104-lab08-resize-vm.png)
 
 1. In the **Settings** area, select **Disks**.
 
