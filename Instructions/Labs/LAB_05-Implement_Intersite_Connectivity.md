@@ -108,11 +108,11 @@ In this task, you create a manufacturing services virtual network with a virtual
     | Subscription |  *your subscription* |
     | Resource group |  `az104-rg5` |
     | Virtual machine name |    `ManufacturingVM` |
-    | Region | **Southeast Asia** |
+    | Region | **UK South** |
     | Availability options | No infrastructure redundancy required |
     | Security type | **Trusted launch virtual machines** |
     | Image | **Windows Server 2025 Datacenter: x64 Gen2** |
-    | Size | **Standard_D2S_v3** | 
+    | Size | **Standard_D2S_v5** | 
     | Username | `localadmin` | 
     | Password | **Pa55w.rd1234abc** |
 
