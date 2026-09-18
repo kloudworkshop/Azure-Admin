@@ -258,7 +258,7 @@ In this task, you want to control network traffic between the perimeter subnet a
     | Starting Address | `10.0.1.0/24`  |
 
    
-1. In the Azure portal, search for and select `Route tables`, and then select **+ Create**. 
+1. In the Azure portal, search for and select `Route table`, and then select **+ Create**. 
 
     | Setting | Value | 
     | --- | --- |
