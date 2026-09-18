@@ -10,7 +10,7 @@ lab:
 
 In this lab, you learn about backup and recovery of Azure virtual machines. You learn to create a Recovery Service vault and a backup policy for Azure virtual machines. You learn about disaster recovery with Azure Site Recovery. 
 
-This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the regions, but the steps are written using **SouthEastAsia**.
+This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the regions, but the steps are written using **UK South**.
 
 ## Estimated timing: 40 minutes
 
@@ -66,8 +66,8 @@ In this task, you will use a template to deploy a virtual machine. The virtual m
     | Setting       | Value         | 
     | ---           | ---           |
     | Subscription  | Your Azure subscription |
-    | Resource group| `az104-rg-region1` (If necessary, select **Create new**)
-    | Region        | **SouthEastAsia**   |
+    | Resource group| az104-rg-region1`(If necessary, select **Create new**)
+    | Region        | **UK South**   |
     | Username      | **localadmin**   |
     | Password      | **Pa55w.rd1234abc** |
 
@@ -88,11 +88,11 @@ In this task, you will create a Recovery Services vault. A Recovery Services vau
     | Subscription | the name of your Azure subscription |
     | Resource group | `az104-rg-region1`  |
     | Vault Name | `az104-rsv-region1` |
-    | Region | **SouthEastAsia** |
+    | Region | **UK South** |
 
     >**Note**: Make sure that you specify the same region into which you deployed virtual machines in the previous task.
 
-    ![Screenshot of the recovery services vault.](../media/az104-lab10-create-rsv.png)
+    ![Screenshot of the recovery services vault.](../media/az104-lab10-create-rsv-2.png)
 
 1. Click **Review + Create**, ensure that the validation passes and then click **Create**.
 
