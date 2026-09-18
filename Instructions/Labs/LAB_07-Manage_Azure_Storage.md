@@ -110,6 +110,7 @@ In this task, you will create a blob container and upload an image. Blob contain
     | --- | --- |
     | Name | `data`  |
     | Public access level | Notice the access level is set to private |
+   
    </br>
    
 
