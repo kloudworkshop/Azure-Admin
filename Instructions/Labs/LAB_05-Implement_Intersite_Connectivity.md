@@ -253,8 +253,8 @@ In this task, you want to control network traffic between the perimeter subnet a
 
     | Setting | Value | 
     | --- | --- |
-    | Subnet purpose | `Default` |
-    | Name | `perimeter` |
+    | Subnet purpose | `efault |
+    | Name | perimeter |
     | Starting Address | `10.0.1.0/24`  |
 
    
@@ -263,9 +263,9 @@ In this task, you want to control network traffic between the perimeter subnet a
     | Setting | Value | 
     | --- | --- |
     | Subscription | your subscription |
-    | Resource group | `az104-rg5`  |
-    | Region | **Southeast Asia** |
-    | Name | `rt-CoreServices` |
+    | Resource group | az104-rg5  |
+    | Region | **UK South** |
+    | Name | rt-CoreServices |
     | Enable peering routes | **No** |
 
 1. Select **Review + create** and then **Create**
@@ -278,11 +278,11 @@ In this task, you want to control network traffic between the perimeter subnet a
 
     | Setting | Value | 
     | --- | --- |
-    | Route name | `PerimetertoCore` |
+    | Route name | PerimetertoCore |
     | Destination type | **IP Addresses** |
-    | Destination IP addresses | `10.0.0.0/16` (core services virtual network) |
+    | Destination IP addresses | 10.0.0.0/16 (core services virtual network) |
     | Next hop type | **Virtual appliance** (notice your other choices) |
-    | Next hop address | `10.0.1.7` |
+    | Next hop address | 10.0.1.7 |
 
 1. Select **+ Add** when the route is completed. The last thing to do is associate the route with the subnet.
 
