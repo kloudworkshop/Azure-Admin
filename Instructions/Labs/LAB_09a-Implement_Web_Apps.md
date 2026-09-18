@@ -100,7 +100,7 @@ In this task, you will configure Web App deployment settings. Deployment setting
 
 1. In the **Setting** section select **Configuration**, in the General settings tab check the tick box for 'SCM Basic Auth Publishing Credentials', then press apply.
 
-1. In the staging slot, select **Deployment Center** and then select **Settings**, select the 'Manual Deployment (Push)'
+1. Select **Deployment Center** in the Deployment section then on the  **Settings** tab , select the 'Manual Deployment (Push)'
 
     >**Note:** Make sure you are on the staging slot blade (instead than the production slot).
     
