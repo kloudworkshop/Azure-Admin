@@ -83,7 +83,7 @@ In this task, you will create a staging deployment slot. Deployment slots enable
 
     | Setting | Value |
     | --- | ---|
-    | Name | `staging` |
+    | Name | staging |
     | Clone settings from | **Do not clone settings**|
 
 1. Select **Add**.
@@ -98,7 +98,9 @@ In this task, you will create a staging deployment slot. Deployment slots enable
 
 In this task, you will configure Web App deployment settings. Deployment settings allow for continuous deployment. This ensures that the app service has the latest version of the application.
 
-1. In the staging slot, select **Deployment Center** and then select **Settings**.
+1. In the **Setting** section select **Configuration**, in the General settings tab check the tick box for 'SCM Basic Auth Publishing Credentials', then press apply.
+
+1. In the staging slot, select **Deployment Center** and then select **Settings**, select the 'Manual Deployment (Push)'
 
     >**Note:** Make sure you are on the staging slot blade (instead than the production slot).
     
