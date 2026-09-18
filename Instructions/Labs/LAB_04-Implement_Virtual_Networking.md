@@ -119,7 +119,7 @@ In this task, you create the ManufacturingVnet virtual network and associated su
 
 1. Navigate to the **Allfiles\Labs\04** and select the **az104-04-template.json** file
   
-1. Edit the file and change the location around line 16 from **westeurope** to **eastUS**and click **save**.
+1. Edit the file and change the location around line 16 from **westeurope** to **eastus**and click **save**.
 
 1. From the Resourcegroup drop down list Select the **az104-rg4**. 
 
