@@ -253,7 +253,7 @@ In this task, you want to control network traffic between the perimeter subnet a
 
     | Setting | Value | 
     | --- | --- |
-    | Subnet purpose | `efault |
+    | Subnet purpose | default |
     | Name | perimeter |
     | Starting Address | `10.0.1.0/24`  |
 
