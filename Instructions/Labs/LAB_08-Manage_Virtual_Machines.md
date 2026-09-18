@@ -64,19 +64,19 @@ In this task, you will deploy two Azure virtual machines into different availabi
     | Subscription | the name of your Azure subscription |
     | Resource group |  **az104-rg8** (If necessary, click **Create new**) |
     | Virtual machine names | `az104-vm1` and `az104-vm2` (After selecting both availability zones, select **Edit names** under the VM name field.) |
-    | Region | **(Asia Pacific) SouthEast Asia** |
+    | Region | **UK South** |
     | Availability options | **Availability zone** |
     | Availability zone | **Zone 1, 2** (read the note about using virtual machine scale sets) |
     | Security type | **Standard** |
     | Image | **Windows Server 2025 Datacenter - x64 Gen2** |
     | Azure Spot instance | **unchecked** |
-    | Size | **Standard D2s v3** |
+    | Size | **Standard D2nls_v6** (or any VM SKU with 2 cores)|
     | Username | `localadmin` |
     | Password | **Pa55w.rd1234abc** |
     | Public inbound ports | **None** |
     | Would you like to use an existing Windows Server license? | **Unchecked** |
 
-    ![Screenshot of the create vm page.](../media/az104-lab08-create-vm.png)
+    ![Screenshot of the create vm page.](../media/az104-lab08-create-vm-2.png)
 
 1. Click **Next: Disks >** , specify the following settings (leave others with their default values):
 
