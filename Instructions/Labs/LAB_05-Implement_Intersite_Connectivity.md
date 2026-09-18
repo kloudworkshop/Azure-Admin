@@ -10,7 +10,7 @@ lab:
 
 In this lab you explore communication between virtual networks. You implement virtual network peering and test connections. You will also create a custom route. 
 
-This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the region, but the steps are written using **SouthEast Asia**. 
+This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the region, but the steps are written using **UK South**. 
 
 ## Estimated time: 45 minutes
     
