@@ -179,7 +179,7 @@ In this task, you create a virtual network peering to enable communications betw
 
 1. In CoreServicesVnet, under **Settings**, select **Peerings**.
 
-1. 'On CoreServicesVnet | Peerings', select **+ Add**.
+1. On CoreServicesVnet \| Peerings, select **+ Add**.
 
 1. Use the information in the following table to create the peering.
 
