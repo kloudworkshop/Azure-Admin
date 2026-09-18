@@ -196,7 +196,7 @@ In this task, you implement an Azure Application Gateway in front of two Azure v
 
     > **Note**: This subnet will be used by the Azure Application Gateway. The Application Gateway requires a dedicated subnet of /27 or larger size.
 
-1. In the Azure portal, search and select `Application Gateways` and, on the **Application Gateways** blade, click **+ Create** then click **Application Gateway**.
+1. In the Azure portal, search and select `Application Gateway` and, on the **Application Gateways** blade, click **+ Create** then click **Application Gateway**.
 
 1. On the **Basics** tab, specify the following settings (leave others with their default values):
 
@@ -213,7 +213,7 @@ In this task, you implement an Azure Application Gateway in front of two Azure v
     | Virtual network | **az104-06-vnet1** |
     | Subnet | **subnet-appgw (10.60.3.0/27)** |
 
-    ![Screenshot of the create app gateway page.](../media/az104-lab06-create-appgw4.png)
+    ![Screenshot of the create app gateway page.](../media/az104-lab06-create-appgw5.png)
 
 1. Click **Next: Frontends >** and specify the following settings (leave others with their default values). When complete, click **OK**.
 
