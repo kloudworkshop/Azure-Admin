@@ -165,9 +165,8 @@ In this task, you implement an Azure Load Balancer in front of two Azure virtual
 
 1. Open another browser tab and navigate to the IP address. Verify that the browser window displays the message **Hello World from az104-06-vm0** or **Hello World from az104-06-vm1**.
 
-1. Refresh the window to verify the message changes to the other virtual machine. This demonstrates the load balancer rotating through the virtual machines.
 
-    > **Note**: You may need to refresh more than once or open a new browser window in InPrivate mode.
+    > **Note**: If you get a "Hmmm...can't reach this page", change from https to http.
 
 ## Task 3: Configure an Azure Application Gateway
 
