@@ -264,9 +264,9 @@ In this task, you want to control network traffic between the perimeter subnet a
     | --- | --- |
     | Subscription | your subscription |
     | Resource group | az104-rg5  |
-    | Region | **UK South** |
     | Name | rt-CoreServices |
     | Enable peering routes | **No** |
+   | Region | **UK South** |
 
 1. Select **Review + create** and then **Create**
 
