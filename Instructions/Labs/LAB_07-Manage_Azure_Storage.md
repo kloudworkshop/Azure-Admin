@@ -108,9 +108,9 @@ In this task, you will create a blob container and upload an image. Blob contain
 
     | Setting | Value |
     | --- | --- |
-    | Name | `data`  |
+    | Name | data  |
     | Public access level | Notice the access level is set to private |
-   
+   <br>
    
     ![Screenshot of create a container.](../media/az104-lab07-create-container.png)
 
