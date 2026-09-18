@@ -247,7 +247,7 @@ In this task, you will create and configure Azure File shares. You will use Stor
 
     >**Note:** The storage account should now only be accessed from the virtual network you just created. 
 
-1. Select the **Storage browser** and **Refresh** the page. Navigate to your file share or blob content.  
+1. Select the **Storage browser** and **Refresh** the page. Navigate to your file share or blob content, select one of containers or file shares.  
 
     >**Note:** You should receive a message *not authorized to perform this operation*. You are not connecting from the virtual network. It may take a couple of minutes for this to take effect.
 
