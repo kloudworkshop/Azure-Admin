@@ -10,7 +10,7 @@ lab:
 
 In this lab, you learn about Azure Monitor. You learn to create an alert and send it to an action group. You trigger and test the alert and check the activity log.  
 
-This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the region, but the steps are written using **SouthEastAsia**.
+This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the region, but the steps are written using **UK South**.
 
 ## Estimated timing: 30 minutes
 
@@ -61,9 +61,9 @@ In this task, you will deploy a virtual machine that will be used to test monito
     | ---           | ---           |
     | Subscription  | Your Azure subscription |
     | Resource group| `az104-rg11` (If necessary, select **Create new**)
-    | Region        | **SouthEastAsia**   |
-    | Username      | `localadmin`   |
-    | Password      | `Pa55w.rd123
+    | Region        | **UK South**   |
+    | Username      | **localadmin**   |
+    | Password      | **Pa55w.rd123** |
     
 1. Select **Review + Create**, then select **Create**.
 
