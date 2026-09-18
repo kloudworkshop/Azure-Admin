@@ -117,7 +117,7 @@ In this task, you will scale a virtual machine by adjusting its size to a differ
 
 1. On the **az104-vm1** virtual machine, in the **Availability + scale** blade, select **Size**.
 
-1. Set another virtual machine size that has 2 cores *and click **Resize**. When prompted, confirm the change.
+1. Set another virtual machine size that has 2 cores and click **Resize**. When prompted, confirm the change.
 
 2.  ![Screenshot of the create vm page.](../media/az104-lab08-resize-vm.png)
 
