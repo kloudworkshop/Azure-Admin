@@ -79,7 +79,7 @@ In this task, you will deploy a virtual machine that will be used to test monito
 
 1. On the `overview blade` (right hand side) Select **View** in the **VM Insights** box, and then select **Configure Insights**.
 
-1. Select your virtual machine, and then select **Enable**.
+1. Select your virtual machine, and then select **Configure**.
 
 1. De-Select `Open Telemetry Metrics`.
 
