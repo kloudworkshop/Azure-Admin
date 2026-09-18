@@ -182,7 +182,7 @@ In this task, you will create and configure Azure File shares. You will use Stor
 
 ### Create the file share and upload a file
 
-1. In the Azure portal, navigate back to your storage account, in the **Data storage** section, click **File shares**.
+1. In the Azure portal, navigate back to your storage account, in the **Data storage** section, click **Classic File shares**.
 
 1. Click **+ File share** and on the **Basics** tab give the file share a name, `share1`. 
 
