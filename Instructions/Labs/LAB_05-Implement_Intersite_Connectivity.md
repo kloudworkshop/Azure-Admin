@@ -58,15 +58,15 @@ In this task, you create a core services virtual network with a virtual machine.
     | Subscription |  *your subscription* |
     | Resource group |  `az104-rg5` (If necessary, **Create new**. )
     | Virtual machine name |    `CoreServicesVM` |
-    | Region | **Southeast Asia** |
+    | Region | **UK South** |
     | Availability options | No infrastructure redundancy required |
     | Security type | **Trusted launch virtual machines** |
     | Image | **Windows Server 2025 Datacenter - x64 Gen2**  |
-    | Size | **Standard_D2S_v3** |
+    | Size | **Standard_D2S_v5** |
     | Username | `localadmin` | 
     | Password | **Pa55w.rd1234abc** |
 
-    ![Screenshot of Basic virtual machine creation page. ](../media/az104-lab05-createcorevm-3.png)
+    ![Screenshot of Basic virtual machine creation page. ](../media/az104-lab05-createcorevm-34.png)
    
 1. On the **Disks** tab take the defaults and then select **Next: Networking >**.
 
