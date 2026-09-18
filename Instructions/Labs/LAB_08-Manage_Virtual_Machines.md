@@ -117,11 +117,7 @@ In this task, you will scale a virtual machine by adjusting its size to a differ
 
 1. On the **az104-vm1** virtual machine, in the **Availability + scale** blade, select **Size**.
 
-1. Set the virtual machine size to **DS1_v2** and click **Resize**. When prompted, confirm the change.
-
-    >**Note**: Choose another size if **Standard DS1_v2** is not available. Resizing is also known as vertical scaling, up or down.
-
-    ![Screenshot of the resize the virtual machine.](../media/az104-lab08-resize-vm.png)
+1. Set another virtual machine size that has 2 cores *and click **Resize**. When prompted, confirm the change.
 
 1. In the **Settings** area, select **Disks**.
 
