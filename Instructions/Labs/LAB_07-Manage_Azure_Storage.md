@@ -110,10 +110,10 @@ In this task, you will create a blob container and upload an image. Blob contain
     | --- | --- |
     | Name | data  |
     | Public access level | Notice the access level is set to private |
-
-   <space><space>
-
-   
+    <p>
+        
+    </p>
+  
     ![Screenshot of create a container.](../media/az104-lab07-create-container.png)
 
 1. After creation. In the **Containers** blade, select the ellipses `(...)` on the far right of the `Data` container, and select **Access Policy**.
