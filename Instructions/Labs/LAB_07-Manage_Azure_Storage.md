@@ -191,7 +191,7 @@ In this task, you will create and configure Azure File shares. You will use Stor
 
 1. Click **Review + create**, and then **Create**. Wait for the file share to deploy.
 
-    ![Screenshot of the create file share page.](../media/az104-lab07-create-share2.png)
+    ![Screenshot of the create file share page.](../media/az104-lab07-create-share-2.png)
 
 ### Explore Storage Browser and upload a file
 
