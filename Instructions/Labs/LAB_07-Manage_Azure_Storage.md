@@ -106,11 +106,12 @@ In this task, you will create a blob container and upload an image. Blob contain
 
 1. Click **+ Add container** and **Create** a container with the following settings:
    
-  <br/>
+  
     | Setting | Value |
     | --- | --- |
     | Name | data  |
     | Public access level | Notice the access level is set to private |
+   <br>
    <br/>
   
    
