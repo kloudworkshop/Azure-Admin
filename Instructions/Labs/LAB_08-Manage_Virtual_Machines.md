@@ -210,7 +210,7 @@ In this task, you will deploy an Azure virtual machine scale set across availabi
     | Setting | Value |
     | --- | --- |
     | Name | vmss-vnet |
-    | Address range | 10.82.0.0/16 (change what is there) |
+    | Address range | 10.82.0.0/16  (change what is there) |
     | Subnet name | subnet0 |
     | Subnet range | 10.82.0.0/24 |
 
