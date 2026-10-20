@@ -172,7 +172,7 @@ In this task, you work with the Azure Cloud Shell and Azure PowerShell. Azure Cl
     ls
     ```
 
-1. Select the **Editor** (curly brackets) icon and navigate to the parameters JSON file.
+1. Select the **Editor** (pen) icon and navigate to the parameters JSON file.
 
 1. Make a change. Change the disk name to **"az104-disk4"**. (Ensure you use double quotation marks, not singles around the name). Use **Ctrl +S** to save your changes.
 
