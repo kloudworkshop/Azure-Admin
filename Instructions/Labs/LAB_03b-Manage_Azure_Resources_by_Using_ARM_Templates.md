@@ -69,6 +69,8 @@ In this task, we will create a managed disk in the Azure portal. Managed disks a
 
 1. In the **Automation** blade, select **Export template**. 
 
+1. Select Export as ARM
+
 1. Take a minute to review the **Template** and **Parameters** files.
 
 1. Select the **Template** tab and **Download** the template. Then, switch to the **Parameters** tab, and repeat the **Download** operation.
