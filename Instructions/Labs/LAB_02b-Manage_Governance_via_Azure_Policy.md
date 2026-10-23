@@ -130,6 +130,7 @@ In this task, you will assign the built-in *Require a tag and its value on resou
     | --- | --- |
     | Resource group | **az104-rg2** |
     | Storage account name | *any globally unique combination of between 3 and 24 lower case letters and digits, starting with a letter* |
+    | Primary service  | Select **Azure Blob Storage or Data Lake Storage** |
 
 1. Select **Review** and then click **Create**:
 
