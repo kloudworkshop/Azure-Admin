@@ -67,7 +67,9 @@ In this task, you will create and configure a storage account. The storage accou
 
 2. Review the **Data protection** tab. Notice 7 days is the default soft delete retention policy. Note you can enable blob versioning. Accept the defaults and click **Next**.
 
-3. Review the **Encryption** tab. Notice the additional security options. Accept the defaults.
+1. Review the **Security** tab. Notice the additional security options. Accept the defaults.
+
+3. Review the **Encryption** tab. Accept the defaults.
 
 4. click **Review + Create**, wait for the validation process to complete, and then click **Create**.
 
