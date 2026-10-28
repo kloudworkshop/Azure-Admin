@@ -193,6 +193,8 @@ In this task, you will use Azure Monitor to query the data captured from the vir
 
 1. In the Azure portal, search for and select `Monitor` blade, click **Logs**.
 
+1. Close the splash screen if neccessary
+
 1. If necessary De-select the Agent slider (Top right). 
 
 1. Select a scope, your **resource group**. Select **Apply**. 
