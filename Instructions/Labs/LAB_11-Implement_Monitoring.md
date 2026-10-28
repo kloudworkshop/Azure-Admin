@@ -18,12 +18,6 @@ This lab requires an Azure subscription. Your subscription type may affect the a
 
 Your organization has migrated their infrastructure to Azure. It is important that Administrators are notified of any significant infrastructure changes. You plan to examine the capabilities of Azure Monitor, including Log Analytics.
 
-## Interactive lab simulation
-
-There is an interactive lab simulation that you might find useful for this topic. The simulation lets you to click through a similar scenario at your own pace. There are differences between the interactive simulation and this lab, but many of the core concepts are the same. An Azure subscription is not required.
-
-+ [Implement monitoring](https://mslabs.cloudguides.com/guides/AZ-104%20Exam%20Guide%20-%20Microsoft%20Azure%20Administrator%20Exercise%2017). Create a Log Analytics workspace and Azure-automation solutions. Review monitoring and diagnostic settings for virtual machines. Review Azure Monitor and Log Analytics functionality. 
-
 ## Architecture diagram
 
 ![Diagram of the architecture tasks](../media/az104-lab11-architecture.png)
@@ -199,7 +193,7 @@ In this task, you will use Azure Monitor to query the data captured from the vir
 
 1. In the Azure portal, search for and select `Monitor` blade, click **Logs**.
 
-1. If necessary close the splash screen. 
+1. If necessary De-select the Agent slider (Top right). 
 
 1. Select a scope, your **resource group**. Select **Apply**. 
 
