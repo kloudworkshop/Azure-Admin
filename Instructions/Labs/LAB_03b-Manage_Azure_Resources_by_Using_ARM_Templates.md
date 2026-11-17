@@ -196,7 +196,7 @@ In this task, you will use a Bicep file to deploy a managed disk. Bicep is a dec
 
 1. **Upload** the bicep file to the Cloud Shell. 
 
-1. Select the **Editor** (Pen icon) icon and navigate to the file.
+1. Select the **Editor** and navigate to the file.
 
 1. Take a minute to read through the bicep template file. Notice how the disk resource is defined. 
    
