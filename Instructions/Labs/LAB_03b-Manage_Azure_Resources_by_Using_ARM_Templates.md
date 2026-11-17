@@ -135,7 +135,7 @@ In this task, you work with the Azure Cloud Shell and Azure PowerShell. Azure Cl
     ```
     >**Note**: If you need to, you can use **cls** to clear the command window. You can use the arrow keys to move the command history.
 
-4. Select the **Editor** (pen) icon and navigate to the **parameters.json** file.
+4. Select the **Editor**(Pen icon) and navigate to the **parameters.json** file.
 
 6. Make a change. Change the disk name **Value** on Line 6 from `null` to **"az104-disk3"**. (Ensure you use double quotation marks, not singles around the name). Use **Ctrl +S** to save your changes. 
 
@@ -164,7 +164,7 @@ In this task, you work with the Azure Cloud Shell and Azure PowerShell. Azure Cl
     ls
     ```
 
-1. Select the **Editor** and navigate to the parameters JSON file.
+1. Select the **Editor** (Pen Icon) and navigate to the parameters JSON file.
 
 1. Make a change. Change the disk name to **"az104-disk4"**. (Ensure you use double quotation marks, not singles around the name). Use **Ctrl +S** to save your changes.
 
@@ -196,7 +196,7 @@ In this task, you will use a Bicep file to deploy a managed disk. Bicep is a dec
 
 1. **Upload** the bicep file to the Cloud Shell. 
 
-1. Select the **Editor** and navigate to the file.
+1. Select the **Editor** (Pen Icon) and navigate to the file.
 
 1. Take a minute to read through the bicep template file. Notice how the disk resource is defined. 
    
