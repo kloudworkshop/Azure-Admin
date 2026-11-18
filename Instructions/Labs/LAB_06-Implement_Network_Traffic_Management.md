@@ -266,8 +266,8 @@ In this task, you implement an Azure Application Gateway in front of two Azure v
 
    | Setting | Value |
     | --- | --- |
-    | Backend target | Select from drop down list `az104-appgwbe` |
-    | Backend settings name | az104-http (add new) |
+    | Backend pool | Select from drop down list `az104-appgwbe` |
+    | Backend settings | az104-http (add new) |
 
 1. Accept all other default settings and select **Add**.
 
