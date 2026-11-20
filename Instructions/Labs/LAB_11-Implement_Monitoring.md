@@ -187,33 +187,29 @@ Enter these settings for the scheduling of the alert processing rule:
 
 ## Task 5: Use Azure Monitor log queries
 
-In this task, you will use Azure Monitor to query the data captured from the virtual machine.
+1. In this task, you verify that the Azure Monitor Agent is sending heartbeat and VM performance data to the Log Analytics workspace. Complete this task before deleting the virtual machine.
 
-> **Note:** It is okay if data doesn’t appear (it can take upto 30 mins before data is available). Focus on the steps to review monitoring information, including preconfigured and custom log queries.
+1. In **az104-rg11**, open the Log Analytics workspace whose name begins with **az104-law11-**.
 
-1. In the Azure portal, search for and select `Monitor` blade, click **Logs**.
+1. 1. Under **General**, select **Logs**.
 
-1. Close the splash screen if neccessary
+1. Close the welcome window or Queries hub if either appears.
 
-1. If necessary De-select the Agent slider (Top right). 
+1. If necessary, select KQL mode from the query editor mode menu.
 
-1. Select a scope, your **resource group**. Select **Apply**. 
+1. Replace any text in the query editor with the following query, and then select Run.
 
-1. On the right hand side of the query editor. Change from `Simple mode` to `KQL mode`
-
-1. In the **Queries** tab, select **Virtual machines** (left pane). 
-
-1. Review the queries that are available. **Run** (hover over the query) the **Count heartbeats** query.
-
-1. You should receive a heartbeat count for when the virtual machine was running.
-
-1. Review the query. This query uses the *heartbeat* table. 
+    ```bash
+    Heartbeat
+    | where TimeGenerated > ago(30m)
+    | where Computer =~ "az104-vm0"
+    | summarize HeartbeatCount = count(), LastHeartbeat = max(TimeGenerated)
+        by Computer, Category
+    ```
 
 1. Replace the query with this one, and then click **Run**. Review the resulting chart.
 
    ```bash
-    // Virtual Machine available memory
-    // Chart the VM's available memory over the last hour.
     InsightsMetrics 
     |where TimeGenerated > ago(1hr)
     |project TimeGenerated, Name, Val
