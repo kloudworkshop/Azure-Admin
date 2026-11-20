@@ -56,38 +56,38 @@ In this task, you will deploy a virtual machine that will be used to test monito
     | Subscription  | Your Azure subscription |
     | Resource group| `az104-rg11` (If necessary, select **Create new**)
     | Region        | **UK South**   |
+    | VM Size | Select an available size. Use **Standard_D2s_v5** if available.|
     | Username      | **localadmin**   |
-    | Password      | **Pa55w.rd123** |
+    | Password      | **Pa55w.rd123abc** |
     
 1. Select **Review + Create**, then select **Create**.
 
+    >**NOTE:** The template provides three current VM sizes. Start with        **Standard_D2s_v5**. If the deployment fails because the size is unavailable or Azure lacks capacity, select **Standard_D2s_v6** and redeploy to the same resource group. If necessary, retry with **Standard_D2s_v7**. If a retry fails because an existing or partially deployed resource causes a conflict, delete **az104-rg11**. Restart Task 1 from **Search for and select Deploy a custom template**, reload the template, select Create new to recreate **az104-rg11**, and deploy again with the selected VM size.  
+
 1. Wait for the deployment to finish, then click **Go to resource group**.
 
-1. Review what resources were deployed. There should be one virtual network with one virtual machine.
+## Verify the deployment
+1. On the az104-rg11 resource group page, confirm that the following resources exist:
 
-**Configure Azure Monitor for virtual machines (this will be used in the last task)**
+    + Virtual machine **az104-vm0**
+    + Log Analytics workspace with a name that begins with **az104-law11-**
+    + Data collection rule **az104-dcr11**
+    + The virtual network, network interface, public IP address, network security group, and storage account
 
-1. In the portal, search for and select **Monitor**.
+1. Open **az104-vm0**.
 
-1. Take a minute to review all the insights, detection, triage, and diagnosis tools that are available.
+1. If the virtual machine status is Stopped, select Start and wait for its status to change to Running.
 
-1. On the `overview blade` (right hand side) Select **View** in the **VM Insights** box, and then select **Configure Insights**.
+1. Under **Settings**, select **Extensions + applications**.
 
-1. Select your virtual machine, and then select **Configure**.
+1. Confirm that **AzureMonitorWindowsAgent** has a status of **Provisioning succeeded**.
 
-1. De-Select `Open Telemetry Metrics`.
+1. Return to **az104-rg11**, and then open **az104-dcr11**.
 
-1. Select `[Classic] Log based metrics`.
+1. Under **Configuration**, select **Resources**, and then confirm that **az104-vm0** is associated with the data collection rule.
 
-1. De-select `Enable recommended alerts`.
+    > **NOTE:** Data can take several minutes to appear after the Azure Monitor Agent and data collection rule are deployed. Do not delete the virtual machine until you complete Task 2.
 
-1. Accept the defaults and Select **Review + enable**.
-
-1. Select **Enable**
-
-1. It will take a few minutes for the virtual machine agent to install and configure.
-   ***Don't wait***, proceed to the next step. 
-   
 ## Task 2: Create an alert
 
 In this task, you create an alert for when a virtual machine is deleted. 
